@@ -20,7 +20,7 @@ function deleteFromEmployeeByKey(employee,name, value){
     newEmployee2[name] = value;
     return newEmployee2;
 }
-const newEmployee2 =deleteFromEmployeeByKey("name", "Sam");
+const newEmployee2 = deleteFromEmployeeByKey("name", "Sam");
 
 newEmployee2.name;
 
